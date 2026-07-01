@@ -1,0 +1,33 @@
+{
+  "name": "trading-seatbelt-os",
+  "version": "0.1.0",
+  "description": "The open-source safety layer for retail traders — scam checker, risk calculator, pre-trade checklist, and revenge-trade cooldown for Discord and Telegram.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/lib/seatbelt.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:discord": "node src/discord/bot.js",
+    "start:telegram": "node src/telegram/bot.js",
+    "lint": "echo \"(placeholder) add eslint here if you want stricter checks\" && exit 0",
+    "test": "node --test"
+  },
+  "keywords": [
+    "trading",
+    "risk-management",
+    "discord-bot",
+    "telegram-bot",
+    "scam-detection",
+    "position-sizing",
+    "beginner-friendly",
+    "open-source"
+  ],
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1"
+  }
+}

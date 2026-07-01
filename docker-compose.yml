@@ -1,0 +1,7 @@
+services:
+  seatbelt:
+    build: .
+    image: trading-seatbelt-os
+    container_name: trading-seatbelt
+    env_file: .env
+    restart: unless-stopped
