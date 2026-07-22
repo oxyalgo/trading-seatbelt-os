@@ -1,0 +1,31 @@
+{
+  "policyId": "TPT_PRO_100K",
+  "account": {
+    "id": "DEMO-ACCOUNT-001",
+    "balance": 100282.5,
+    "equity": 101070,
+    "openPnl": 1070,
+    "dailyPnl": 1070,
+    "openPositions": 0,
+    "tradesToday": 5
+  },
+  "trade": {
+    "symbol": "CL",
+    "exchange": "NYMEX",
+    "side": "BUY",
+    "contracts": 4,
+    "entry": 93.3225,
+    "stop": 93.35,
+    "target": 94.85,
+    "worstCaseLoss": 0,
+    "executionMode": "manual",
+    "isExit": false
+  },
+  "market": {
+    "hourET": 13,
+    "highImpactNewsWithinMinutes": null
+  },
+  "portfolio": {
+    "correlatedOpenRisk": 0
+  }
+}

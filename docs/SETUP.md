@@ -10,7 +10,7 @@ This guide gets the Trading Seatbelt running on your machine or server.
 ## 2. Get the code
 
 ```bash
-git clone https://github.com/your-org/trading-seatbelt-os.git
+git clone https://github.com/oxyalgo/trading-seatbelt-os.git
 cd trading-seatbelt-os
 ```
 
