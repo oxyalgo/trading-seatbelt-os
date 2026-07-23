@@ -25,8 +25,8 @@ const policies = {
     maxContracts: 12,               // max total contracts at once
     maxOpenPositions: 1,            // max simultaneous open positions
     maxTradesPerDay: 8,             // max entries per day
-    maxDailyLoss: 1200,             // stop for the day once daily PnL <= -this
-    dailyProfitLockAt: 1500,        // stop for the day once daily PnL >= this (keep the win)
+    maxDailyLoss: 999999,           // TPT REMOVED the daily loss limit (Jan 2025) — none on PRO; set inert
+    dailyProfitLockAt: 1500,        // optional SELF-IMPOSED "bank the win" stop (not a firm rule)
     dailyGivebackLimit: 500,        // informational: max you may give back from peak
     flattenBeforeHourET: 16,        // warn: prefer flat/protective actions after this hour
     noHoldPastHourET: 17,           // hard: no new trades at/after this hour
