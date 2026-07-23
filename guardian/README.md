@@ -54,7 +54,7 @@ TG_TOKEN=your-bot-token TG_CHAT=your-chat-id node guardian/test-sim.js
 
 ## Don't want to babysit it yourself?
 
-A seatbelt you can unbuckle when you're tilting is worth nothing. **OXY hosts the Guardian for you** — it watches your account 24/7 from our servers, so it's still guarding you at 2am when you've closed your laptop, and you can't quietly turn it off in a weak moment. → **[oxyalgo.com/seatbelt](https://oxyalgo.com/seatbelt)**
+A seatbelt you can unbuckle when you're tilting is worth nothing. **OXY hosts the Guardian for you** — it watches your account 24/7 from our servers, so it's still guarding you at 2am when you've closed your laptop, and you can't quietly turn it off in a weak moment. Free 2-week pilot → **[oxyalgo.com/guardian](https://oxyalgo.com/guardian)**
 
 ## ⚠️ Disclaimer
 
