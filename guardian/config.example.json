@@ -1,0 +1,19 @@
+{
+  "pollSeconds": 60,
+  "accounts": [
+    {
+      "label": "My Topstep 50K",
+      "broker": "tradelocker",
+      "rulePackId": "TOPSTEP_50K",
+      "resetHourET": 17,
+      "tradelocker": {
+        "email": "you@email.com",
+        "password": "your-tradelocker-password",
+        "server": "YOUR-BROKER-SERVER",
+        "accNum": null,
+        "accountId": null
+      },
+      "telegram": { "token": "YOUR_TELEGRAM_BOT_TOKEN", "chatId": "YOUR_TELEGRAM_CHAT_ID" }
+    }
+  ]
+}

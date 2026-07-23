@@ -13,6 +13,8 @@
     "start:discord": "node src/discord/bot.js",
     "start:telegram": "node src/telegram/bot.js",
     "governor": "node src/governor-cli.js",
+    "guardian": "node guardian/guardian.js",
+    "guardian:test": "node guardian/test-sim.js",
     "lint": "echo \"(placeholder) add eslint here if you want stricter checks\" && exit 0",
     "test": "node --test"
   },

@@ -28,7 +28,8 @@ A seatbelt doesn't stop you from driving. It stops a small mistake from becoming
 
 ## ✨ Features
 
-- 🚦 **Risk Governor** *(new in v0.2)* — a deterministic pre-trade check that returns **ALLOW / BLOCK / REDUCE_SIZE / REQUIRE_APPROVAL / LOCK_PAYOUT** with plain-English reasons. Enforces daily-loss limits, payout locks, max contracts/positions/trades, news lockouts, session cutoffs, and more. Read-only — it never places an order.
+- 🛡️ **Account Guardian** *(new)* — connects **read-only to your live funded account** and messages your phone *before* you break a rule (70% → 90% → 100% of your daily-loss limit, drawdown floor, profit-lock, payout). The thing watching the line at 2am. See **[guardian/](guardian/)**.
+- 🚦 **Risk Governor** — a deterministic pre-trade check that returns **ALLOW / BLOCK / REDUCE_SIZE / REQUIRE_APPROVAL / LOCK_PAYOUT** with plain-English reasons. Enforces daily-loss limits, payout locks, max contracts/positions/trades, news lockouts, session cutoffs, and more. Read-only — it never places an order.
 - 📦 **Prop-firm rule packs** *(new in v0.2)* — machine-readable rulesets for **TakeProfitTrader, Topstep, Apex**, so the Governor knows your firm's limits. Community-maintained — [add your firm in one PR](rule-packs/README.md).
 - 🚨 **Scam / red-flag checker** — paste any DM, ad, or "signal group" pitch and get a 0–10 risk score with plain-English reasons.
 - 🧮 **Position-size calculator** — turn "1% risk" into an actual safe lot/unit size from your balance, entry, and stop.
