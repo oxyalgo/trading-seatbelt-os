@@ -58,10 +58,11 @@ function makeTradeLockerReader(acct) {
     token = auth.accessToken;
     if (accNum == null || accountId == null) {
       const accounts = await tlGetAccounts(token);
-      const a = accounts[0];
+      // pick the requested accNum if given, else the first account
+      const a = (accNum != null && accounts.find((x) => String(x.accNum) === String(accNum))) || accounts[0];
       if (!a) throw new Error("No TradeLocker accounts on this login");
       accNum = a.accNum;
-      accountId = a.accountId;
+      accountId = a.accountId ?? a.id; // TradeLocker returns the account id as `id`
     }
   }
 

@@ -51,7 +51,7 @@ function money(v) { return `$${Number(v).toLocaleString("en-US", { maximumFracti
 async function tickAccount(account, reader, state, now = new Date()) {
   const st = state[account.label] || { sessionKey: null, dayStartEquity: null, lastLevel: "SAFE", lastAlertTs: 0 };
   const status = await reader();
-  const policy = getPolicy(account.rulePackId);
+  const policy = account.policy || getPolicy(account.rulePackId); // inline policy or a named rule pack
   const key = sessionKey(account.resetHourET || 17, now);
 
   if (st.sessionKey !== key) {
@@ -91,6 +91,13 @@ async function runForever() {
   const readers = new Map(config.accounts.map((a) => [a.label, buildReader(a)]));
   const pollMs = (config.pollSeconds || 60) * 1000;
   console.log(`[guardian] watching ${config.accounts.length} account(s), every ${pollMs / 1000}s`);
+
+  // startup ping so the owner sees it go live
+  const first = config.accounts[0];
+  if (first?.telegram?.token && first?.telegram?.chatId) {
+    await sendAlert(first.telegram.token, first.telegram.chatId,
+      `🛡️ OXY Account Guardian is LIVE on the server.\nWatching ${config.accounts.length} account(s), every ${pollMs / 1000}s. You'll only get pinged when an account nears a rule.`);
+  }
 
   async function tick() {
     const state = loadState();
