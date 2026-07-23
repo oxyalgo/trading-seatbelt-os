@@ -20,10 +20,11 @@ Firms change their rules constantly (drawdowns, contract limits, payout terms). 
 
 → **Free:** https://oxyalgo.com/seatbelt *(drop your email so we can send you the updates — nothing else)*
 
-### 💬 Join the community
-Funded traders sharing rule packs, catching each other's tilt, and keeping the seatbelt sharp.
+### 💬 Join the room
+Funded traders sharing rule packs, live order-flow reads, real-time signals, and a published track record you can check.
 
-→ **Community:** https://oxyalgo.com
+→ **Discord:** https://discord.gg/69nW544nhc
+→ **Telegram:** https://t.me/+dvr6mBaXJOljNmIx
 
 ---
 
