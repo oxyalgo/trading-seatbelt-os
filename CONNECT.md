@@ -1,8 +1,9 @@
 <!--
-  MAINTAINER NOTE (delete this comment or keep it — it won't render on GitHub):
-  Replace the two placeholder links before publishing:
-    • RULE_PACK_SIGNUP_URL  →  https://oxyalgo.com/seatbelt  (your email capture page)
-    • DISCORD_INVITE_URL    →  https://discord.gg/your-invite
+  MAINTAINER NOTE (renders as nothing on GitHub):
+  Links currently point to the OXY hub (oxyalgo.com). Swap in the dedicated
+  targets when they're live:
+    • rule-pack email capture page  (e.g. oxyalgo.com/seatbelt)
+    • Discord community invite
   This file is the ONLY place we ask for contact info, and it is 100% opt-in and
   disclosed. Nothing in this repo collects, transmits, or phones home any user
   data. Keep it that way — that's what keeps the project trusted and un-bannable.
@@ -17,12 +18,12 @@ If you *want* more, these are optional and opt-in:
 ### 📦 Prop-firm rule packs, kept current
 Firms change their rules constantly (drawdowns, contract limits, payout terms). Get the maintained packs for **TakeProfitTrader, Topstep, Apex** (and more as the community adds them), plus a heads-up when a firm changes a rule that could fail your account.
 
-→ **Free:** https://oxyalgo.com/seatbelt *(email, so we can send you the updates — nothing else)*
+→ **Free:** https://oxyalgo.com *(drop your email so we can send you the updates — nothing else)*
 
 ### 💬 Join the community
 Funded traders sharing rule packs, catching each other's tilt, and keeping the seatbelt sharp.
 
-→ **Discord:** https://discord.gg/your-invite
+→ **Community:** https://oxyalgo.com
 
 ---
 
